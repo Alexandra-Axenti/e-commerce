@@ -2,6 +2,7 @@ Welcome to the main room control, King :D!!! Add, delete products and SET THE PR
 
 <ul>
   {{#each model as |product|}}
-    {{product.name}} -- ${{product.price}}<br>
+    {{product.name}} -- ${{product.price}} {{product-edit product=product update="update"}}
+<br>
   {{/each}}
 </ul>
