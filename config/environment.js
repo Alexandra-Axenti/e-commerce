@@ -22,7 +22,7 @@ module.exports = function(environment) {
        authDomain: "e-commerce-51fc3.firebaseapp.com",
        databaseURL: "https://e-commerce-51fc3.firebaseio.com",
        storageBucket: "e-commerce-51fc3.appspot.com"
-    }
+    },
 
     APP: {
       // Here you can pass flags/options to your application instance

@@ -1,0 +1,9 @@
+#vanilla {
+  height: 120px;
+}
+
+button {
+  background-color: white;
+  float: right;
+  margin-right: 20%;
+}
