@@ -1,0 +1,23 @@
+{ "products": [{
+    "name": "Coconut cake",
+    "brand": "Hail Merry",
+    "content": "Made exclusively raw following paleo and vegan standards. All products have been organically farmed. Gluten-free. Ingredients: coconut butter, almond butter, stevia and other delicious ingredients.",
+    "image": "https://www.freshbeak.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/h/a/hail-merry-coconut-vanilla-cream-miracle-tart-3-oz.jpg",
+    "price": 50,
+    "stock": 10
+  }, {
+    "name": "Love Crunch",
+    "brand": "Nature's Path",
+    "content": "Premium Organic Granola. Chocolate and Red Berries",
+    "image": "http://media.al.com/bargain-mom/photo/love-crunchjpg-8690010805077a65.jpg",
+    "price": 33,
+    "stock": 12
+    }, {
+    "name": "Organic Medjoul Dates",
+    "brand": "King Solomon",
+    "content": "Premium Dates",
+    "image": "http://israeliharvest.com/wp-content/uploads/2014/01/Medjoul_bulk_-_BIO_2kg.jpg",
+    "price": 80,
+    "stock": 20
+    }]
+}
