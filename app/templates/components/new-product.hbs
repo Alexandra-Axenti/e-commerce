@@ -1,43 +1,40 @@
-{{#if editProductForm}}
-
-<h4>Update {{product.name}}</h4>
+{{#if newProductForm}}
+<h4>New Product</h4>
 <div>
   <form>
     <div class="form-group">
       <label for="name">Product Name:</label>
-      {{input value=name id="name" placeholder=product.name}}
+      {{input value=name id="name" }}
     </div>
 
     <div class="form-group">
       <label for="brand">Product Brand:</label>
-      {{input value=brand id="brand" placeholder=product.brand}}
+      {{input value=brand id="brand"}}
     </div>
 
     <div class="form-group">
       <label for="content">Product Description:</label>
-      {{input value=content id="content" placeholder=product.content}}
+      {{input value=content id="content"}}
     </div>
 
     <div class="form-group">
       <label for="image">Product Display URL:</label>
-      {{input value=image id="image" placeholder=product.image}}
+      {{input value=image id="image"}}
     </div>
 
     <div class="form-group">
       <label for="price">Product Price:</label>
-      {{input type="number" value=price id="price" placeholder=product.price}}
+      {{input type="number" value=price id="price"}}
     </div>
 
     <div class="form-group">
       <label for="stock">Product Stock Availability:</label>
-      {{input type="number" value=stock id="stock" placeholder=product.stock}}
+      {{input type="number" value=stock id="stock"}}
     </div>
 
-    <button {{action 'save' product}}>Save</button>
-
+    <button {{action "saveProduct"}}>Save Product</button>
   </form>
 </div>
 {{else}}
-
-<button {{action 'editProductForm'}}>Update</button>
+  <button {{action "productFormShow"}}>Add New Product</button>
 {{/if}}

@@ -13,7 +13,11 @@ export default Ember.Route.extend({
           }
           product.save();
         });
-        // this.transitionTo('index');
+      },
+
+      saveProduct(params) {
+        var newProduct = this.store.createRecord('product', params)
+        newProduct.save();
       }
     }
 });
