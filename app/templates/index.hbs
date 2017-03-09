@@ -4,6 +4,13 @@ The best products you can get in Hong Kong!!!
 
 <ul>
 {{#each model as |product|}}
-<li><img id="vanilla" src={{product.image}}> {{product.name}}: ${{product.price}}</li>
+<li>  {{product.name}}: ${{product.price}}</li>
+<button {{action 'addToCart' product}}>Add to Cart</button>
 {{/each}}
+</ul>
+
+<h4>Total Order</h4>
+
+<ul>
+    {{display-cart item=product}}
 </ul>
