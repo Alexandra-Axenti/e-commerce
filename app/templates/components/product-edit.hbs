@@ -25,12 +25,12 @@
 
     <div class="form-group">
       <label for="price">Product Price:</label>
-      {{input value=price id="price" placeholder=product.price}}
+      {{input type="number" value=price id="price" placeholder=product.price}}
     </div>
 
     <div class="form-group">
       <label for="stock">Product Stock Availability:</label>
-      {{input value=stock id="stock" placeholder=product.stock}}
+      {{input type="number" value=stock id="stock" placeholder=product.stock}}
     </div>
 
     <button {{action 'update' product}}>Save</button>

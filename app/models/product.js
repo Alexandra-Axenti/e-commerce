@@ -5,6 +5,6 @@ export default DS.Model.extend({
   brand: DS.attr(),
   content: DS.attr(),
   image: DS.attr(),
-  price: DS.attr(),
-  stock: DS.attr()
+  price: DS.attr('number'),
+  stock: DS.attr('number')
 });

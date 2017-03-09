@@ -13,8 +13,8 @@ export default Ember.Component.extend({
         brand: this.get('brand'),
         content: this.get('content'),
         image: this.get('image'),
-        price: parseInt(this.get('price')),
-        stock: parseInt(this.get('stock'))
+        price: this.get('price'),
+        stock: this.get('stock')
       };
       this.set('editProductForm', false);
       this.sendAction('update', product, params);
